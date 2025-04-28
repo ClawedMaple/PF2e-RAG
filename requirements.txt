@@ -1,0 +1,8 @@
+transformers
+sentence-transformers
+faiss-cpu
+tqdm
+numpy==1.26.3
+huggingface_hub
+torch
+accelerate
