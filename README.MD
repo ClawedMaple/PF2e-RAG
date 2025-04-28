@@ -15,6 +15,17 @@ A lightweight retrieval-augmented generation (RAG) system using SentenceTransfor
 
 ---
 
+# User Instructions
+
+---
+1. When prompted, type in your question about Pathfinder 2e. Ex: How much damage does fireball do?
+2. The program will search and generate an answer based on the data available.
+3. When you are done, type "exit" to end the session
+
+Enjoy the Archives!
+
+---
+
 # Setup Instructions
 
 ---
