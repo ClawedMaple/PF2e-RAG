@@ -34,6 +34,6 @@ def get_answer_llama(question, faiss_index, embed_model, device, documents, rag_
   #f"Answer the following question based only on the provided context. If the answer is not in the context, say 'I don't know based on the context.\n\nContext: {context}\nQuestion: {question}\nAnswer:"
 
   # Generate response with llama
-  output = rag_pipeline(prompt, max_new_tokens=200, do_sample=True, temperature=0.7)
+  output = rag_pipeline(prompt, max_new_tokens=100, do_sample=False)
 
   return output[0]['generated_text']
